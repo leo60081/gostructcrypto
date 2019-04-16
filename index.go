@@ -1,10 +1,11 @@
 package gostructcrypto
 
 import (
-	"gostructcrypto/aes"
 	"log"
 	"os"
 	"sync"
+
+	"github.com/leo60081/gostructcrypto/aes"
 )
 
 var (

@@ -1,9 +1,10 @@
 package gostructcrypto
 
 import (
-	"gostructcrypto/aes"
-	"gostructcrypto/encode"
 	"sync"
+
+	"github.com/leo60081/gostructcrypto/aes"
+	"github.com/leo60081/gostructcrypto/encode"
 )
 
 // usage: embedding to your struct, such like:
